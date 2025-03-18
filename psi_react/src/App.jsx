@@ -1,5 +1,4 @@
 import "./styles/styles_globais.css";
-import "./styles/styles_tela_inicial.css";
 import Header from "./componentes/componentes_gerais/Header";
 import Footer from "./componentes/componentes_gerais/Footer";
 import { Outlet } from "react-router-dom"; 

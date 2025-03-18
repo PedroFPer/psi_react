@@ -10,7 +10,7 @@ function Header() {
 
       <nav className="menuHeaderGeral">
         <div className="menHeadEsquer menGeneri">
-          <Link className="link_gener" to="#">
+          <Link className="link_gener" to="/">
             Home
           </Link>
           <Link className="link_gener" to="#">

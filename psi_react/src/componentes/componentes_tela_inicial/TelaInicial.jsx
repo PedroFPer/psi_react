@@ -4,6 +4,7 @@ import img_tela_ini_2 from "../../assets/imagens/imagens-desktop/imagem_tela_ini
 import img_tela_ini_3 from "../../assets/imagens/imagens-desktop/imagem-tela-inicial-3.webp";
 import BlocoTextoImagemEsquer from "./BlocoTextoImagemEsquer";
 import BlocoTextoImagemDir from "./BlocoTextoImagemDir";
+import "../../styles/styles_tela_inicial.css";
 
 function TelaInicial() {
   return (
