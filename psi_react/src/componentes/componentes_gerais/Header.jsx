@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logoHeader from "../../assets/imagens/imagens-desktop/logo-psi-desktop.png";
 
 function Header() {
@@ -8,19 +9,29 @@ function Header() {
       </figure>
 
       <nav className="menuHeaderGeral">
-        <div className='menHeadEsquer menGeneri'>
-          <a href="#">Home</a>
-          <a href="#">Agentes</a>
-          <a href="#">Discord</a>
+        <div className="menHeadEsquer menGeneri">
+          <Link className="link_gener" to="#">
+            Home
+          </Link>
+          <Link className="link_gener" to="#">
+            Agentes
+          </Link>
+          <Link className="link_gener" to="#">
+            Discord
+          </Link>
         </div>
 
-        <div className='menHeadDire menGeneri'>
+        <div className="menHeadDire menGeneri">
           <button className="botaoGener">
-            <a href="#">Cadastro</a>
+            <Link className="link_gener" to="/cadastro">
+              Cadastro
+            </Link>
           </button>
 
           <button className="botaoGener">
-            <a href="#">Login</a>
+            <Link className="link_gener" to="#">
+              Login
+            </Link>
           </button>
         </div>
       </nav>

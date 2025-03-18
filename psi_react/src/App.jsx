@@ -1,19 +1,19 @@
-import { useState } from 'react'
 import "./styles/styles_globais.css";
-import Header from './componentes/componentes_gerais/header';
-import Main from "./componentes/componentes_gerais/Main";
-import Footer from './componentes/componentes_gerais/Footer';
+import "./styles/styles_tela_inicial.css";
+import Header from "./componentes/componentes_gerais/Header";
+import Footer from "./componentes/componentes_gerais/Footer";
+import { Outlet } from "react-router-dom"; 
 
 function App() {
-
-
   return (
-    <root>
+    <div id="conteiner_geral">
       <Header />
-      <Main/>
+      <main>
+        <Outlet /> 
+      </main>
       <Footer />
-    </root>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;

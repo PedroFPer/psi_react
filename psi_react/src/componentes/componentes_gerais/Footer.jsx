@@ -1,27 +1,29 @@
-import logoHeader from "../../assets/imagens/imagens-desktop/logo-psi-desktop.png";
+import logoDiscord from "../../assets/imagens/imagens-gerais/logo-discord.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
-      <figure className="logo_site_header">
-        <img src={logoHeader} alt="logoHeader" />
-      </figure>
-
-      <nav className="menuHeaderGeral">
-        <div className="menHeadEsquer menGeneri">
-          <a href="#">Home</a>
-          <a href="#">Agentes</a>
-          <a href="#">Discord</a>
+      <nav className="menuFooterGeral">
+        <div className="menFooterEsquer menGeneri">
+          <Link className="link_gener" to="#">
+            Sobre o PSI
+          </Link>
+          <Link className="link_gener" to="#">
+            Informações para contato
+          </Link>
+          <Link className="link_gener" to="#">
+            Privacidade
+          </Link>
         </div>
 
-        <div className="menHeadDire menGeneri">
-          <button className="botaoGener">
-            <a href="#">Cadastro</a>
-          </button>
-
-          <button className="botaoGener">
-            <a href="#">Login</a>
-          </button>
+        <div className="menFooterDire menGeneri">
+          <Link className="link_gener" to="#">
+            Siga-nós
+          </Link>
+          <figure className="logo_discord">
+            <img src={logoDiscord} alt="logoDiscord" />
+          </figure>
         </div>
       </nav>
     </footer>

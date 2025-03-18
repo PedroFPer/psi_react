@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+main{
+    width: 80vw;
+    height: auto;
+
+    display: flex;
+    justify-items: top;
+    align-items: center;
+    flex-direction: column;
+
+     background: black url("../assets/imagens/imagens-desktop/background-pergam-desktop.png") no-repeat center center;
+     background-size: 100% 100%;
+}
+
+#contein_sect_apres{
+    display: flex;
+    justify-items: top;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 2em;
+
+    margin-bottom: 10em;
+}
+
+#apresen_img{
+    margin-top: 8em;
+}
+
+.aprese_sect{
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    gap: 1.5em;
+}
+
+.paragrafo_tela_inicial{
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-bottom: auto;
+}
+
+.paragrafo_tela_inicial p{
+
+    font-size: 1.5em;
+    color: black;
+}
+
+
+.imagem_paragraf_conf{
+    width: 50%;
+    height: auto;
+
+    background-size: cover;
+
+    
+}
+
+.imagem_paragraf_conf img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+#btn_parag_direita{
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#btn_parag_esquer{
+    margin-right: auto;
+}
+
