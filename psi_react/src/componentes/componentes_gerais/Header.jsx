@@ -29,7 +29,7 @@ function Header() {
           </button>
 
           <button className="botaoGener">
-            <Link className="link_gener" to="#">
+            <Link className="link_gener" to="/login">
               Login
             </Link>
           </button>
