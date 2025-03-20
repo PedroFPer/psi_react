@@ -1,2 +1,106 @@
 @charset "UTF-8";
 
+main{
+    
+}
+
+#main_tela_cadastro{
+    width: 80%;
+
+    height: auto;
+
+    display: flex;
+    justify-items: top;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 3em;
+
+    background: radial-gradient(closest-side,#7D3686,#662C6E,#502356, #512357);
+}
+
+.linha_personalizada{
+    width: 30%;
+    padding: 1em;
+
+    background-size: cover;
+}
+
+.linha_personalizada img{
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner_principal{
+    width: 90%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.logo_link{
+    width: 50%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linkFormu{
+    text-decoration:underline;
+    font-size: 1.5em;
+}
+
+.formulario{
+    width: 50%;
+
+    display: flex;
+    justify-items: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario h2{
+    font-size: 3.5em;
+
+    margin: 0%;
+}
+
+.formulario form{
+    width: 100%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 0.5em;
+
+    margin: 2em;
+}
+
+.formulario input{
+    width: 90%;
+    height: 4em;
+
+    border-radius: 10px;
+    
+    background-color: white;
+
+    text-indent: 1%;
+}
+
+.btnForm{
+    width: 40%;
+    height: 3.5em;
+}
+
+.btnForm:hover{
+    width: 41%;
+    height: 3.6em;
+
+}

@@ -8,7 +8,7 @@ import "../../styles/styles_tela_inicial.css";
 
 function TelaInicial() {
   return (
-    <main>
+    <main id = "main_tela_inicial">
       <figure id="apresen_img">
         <img src={apres_psi} alt="aprese_psi" />
       </figure>

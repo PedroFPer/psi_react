@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <TelaInicial /> }, // Rota inicial dentro do App
-      { path: "/cadastro", element: <TelaCadastro /> }, // Cadastro dentro do App
+      { path: "/", element: <TelaInicial /> }, 
+      { path: "/cadastro", element: <TelaCadastro /> }, 
     ],
   },
 ]);
